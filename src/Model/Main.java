@@ -10,6 +10,9 @@ public class Main {
         SwingUtilities.invokeLater(() -> {
             MainView v = new MainView();
             System.out.println("hola mon!!!");
+            if(true){
+                System.out.println("adios");
+            }
             MainController c = new MainController(v);
             v.registerControler(c);
             v.setVisible(true);
